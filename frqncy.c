@@ -57,7 +57,15 @@ int main() {
         }
     }
     
-    printf("\nSo %c has the highest frequency.\n",c);
+    if(max!=1){
+
+        printf("\nSo %c has the highest frequency.\n",c);
+    }
+
+    else{
+
+        printf("There is no Highest frequency character.\n");
+    }
     
     return 0;
 }
